@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
 import com.niit.dao.CategoryDAO;
-import com.niit.dao.SupplierDao;
+import com.niit.dao.SupplierDAO;
 import com.niit.dao.UserDAO;
 import com.niit.model.Product;
 import com.niit.model.User;
@@ -29,7 +29,7 @@ public class HomeController {
     
 	
 	@Autowired
-    SupplierDao supplierDao;
+    SupplierDAO supplierDao;
 	
 	
 

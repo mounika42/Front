@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 import com.niit.dao.CartDAO;
-import com.niit.dao.ProductDao;
+import com.niit.dao.ProductDAO;
 import com.niit.model.Cart;
 import com.niit.model.Product;
 
@@ -24,7 +24,7 @@ public class CartController
 	CartDAO cartDAO;
 	
 	@Autowired
-	ProductDao productDao;
+	ProductDAO productDao;
 	
 
 	  @RequestMapping(value="addToCart/{id}")

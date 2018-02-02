@@ -12,13 +12,13 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
-import com.niit.dao.SupplierDao;
+import com.niit.dao.SupplierDAO;
 import com.niit.model.Supplier;
 @Controller
 public class SupplierController 
 {
 	@Autowired
-    SupplierDao supplierDao;
+    SupplierDAO supplierDao;
 	
 
     @RequestMapping(value="AddSupplier",method=RequestMethod.POST)

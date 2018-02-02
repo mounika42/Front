@@ -30,7 +30,7 @@ import com.niit.dao.CartDAO;
 import com.niit.dao.CategoryDAO;
 import com.niit.dao.OrdersDAO;
 import com.niit.dao.PaymentDAO;
-import com.niit.dao.ProductDao;
+import com.niit.dao.ProductDAO;
 import com.niit.model.Address;
 import com.niit.model.Cart;
 import com.niit.model.Orders;
@@ -49,7 +49,7 @@ public class checkOutController {
 	AddressDAO addressDAO;
 	
 	@Autowired
-	ProductDao productDao;
+	ProductDAO productDao;
 	
 	@Autowired
 	PaymentDAO paymentDAO;

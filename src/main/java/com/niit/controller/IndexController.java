@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-import com.niit.dao.ProductDao;
+import com.niit.dao.ProductDAO;
 import com.niit.dao.UserDAO;
 import com.niit.model.User;
 
@@ -24,7 +24,7 @@ public class IndexController
 	private UserDAO userDAO;
 	
 	@Autowired
-	ProductDao productDao;
+	ProductDAO productDao;
 
 	@RequestMapping(value="/",method=RequestMethod.GET)
 	public String showIndex(Model model) 

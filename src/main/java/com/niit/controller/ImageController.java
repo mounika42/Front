@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 
-import com.niit.dao.ProductDao;
+import com.niit.dao.ProductDAO;
 import com.niit.model.Product;
 
 @Controller
@@ -22,7 +22,7 @@ public class ImageController {
 
 	
 	@Autowired
-	ProductDao productDao;
+	ProductDAO productDao;
 	
 	@RequestMapping(value = "myImage/imageDisplay", method = RequestMethod.GET)
 	  public void showImage(@RequestParam("id") int id, HttpServletResponse response,HttpServletRequest request) 

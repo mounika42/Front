@@ -18,8 +18,8 @@ import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 import com.niit.dao.CategoryDAO;
-import com.niit.dao.ProductDao;
-import com.niit.dao.SupplierDao;
+import com.niit.dao.ProductDAO;
+import com.niit.dao.SupplierDAO;
 import com.niit.model.Category;
 import com.niit.model.Product;
 import com.niit.model.Supplier;
@@ -28,13 +28,13 @@ import com.niit.model.Supplier;
 public class ProductController {
 
 	@Autowired
-	ProductDao productDao;
+	ProductDAO productDao;
 	
 	@Autowired
 	CategoryDAO categoryDAO;
 	
 	@Autowired
-	SupplierDao supplierDao;
+	SupplierDAO supplierDao;
 	
 
 	
